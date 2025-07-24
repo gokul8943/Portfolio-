@@ -1,9 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
+import { Label } from "@radix-ui/react-label";
+
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from "lucide-react";
+import { Textarea } from "./ui/textArea";
 
 const Contact = () => {
   const contactInfo = [
@@ -71,7 +72,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
                 <div className="space-y-4">
-                  {contactInfo.map((item, index) => (
+                  {contactInfo.map((item) => (
                     <Card
                       key={item.title}
                       className="bg-card/50 backdrop-blur-sm border-border hover:shadow-card transition-all duration-300 hover:-translate-y-1"
