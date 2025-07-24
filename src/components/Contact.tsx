@@ -12,14 +12,14 @@ const Contact = () => {
       icon: Mail,
       title: "Email",
       value: "gokul.mr@example.com",
-      href: "mailto:gokul.mr@example.com"
+      href: "mailto:gokulmr@331@gmail.com"
     },
-    {
-      icon: Phone,
-      title: "Phone",
-      value: "+91 9876543210",
-      href: "tel:+919876543210"
-    },
+    // {
+    //   icon: Phone,
+    //   title: "Phone",
+    //   value: "+91 9876543210",
+    //   href: "tel:+919876543210"
+    // },
     {
       icon: MapPin,
       title: "Location",
